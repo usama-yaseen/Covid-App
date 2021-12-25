@@ -60,33 +60,28 @@ export const HomeStyles = StyleSheet.create({
     justifyContent: "space-evenly",
     alignItems: "center",
     width: "100%",
+    paddingTop:25
   },
   CountryContainer: {
-    width: "100%",
-    alignItems: "center",
-    padding: 5,
+    width: "90%",
+    elevation: 5,
+    backgroundColor: "white",
+    borderRadius: 250,
+    padding: 15,
   },
   CountryDropDownPanel: {
-    width: "40%",
-    borderBottomWidth: 0.5,
-    paddingHorizontal: 5,
+    width: "100%",
   },
   CountriesListContainer: {
     borderRadius: 15,
     elevation: 5,
     paddingVertical: 10,
   },
+  Search: { borderRadius: 15, textAlign: 'center' },
   CountriesList: {
     borderBottomWidth: 1,
     borderColor: "grey",
-    marginHorizontal: 15,
-    padding: 5,
-  },
-  ScreenType: {
-    elevation: 5,
-    marginTop: 50,
-    backgroundColor: "white",
-    borderRadius: 250,
+    marginHorizontal: '5%',
     padding: 10,
   },
   advice: {
@@ -105,13 +100,14 @@ export const HomeStyles = StyleSheet.create({
   },
   StatsContainer: {
     width: "90%",
-    height: "35%",
+    height: "45%",
     justifyContent: "space-between",
+    marginBottom:10
   },
   StatsRow: {
     flexDirection: "row",
     width: "100%",
-    height: "45%",
+    height: "35%",
     justifyContent: "space-between",
   },
   Stats: (bg) => {
@@ -136,3 +132,43 @@ export const HomeStyles = StyleSheet.create({
     };
   },
 });
+export const WorldStyles = StyleSheet.create({
+  ScreenType: {
+    elevation: 5,
+    marginTop: 50,
+    backgroundColor: "white",
+    borderRadius: 250,
+    padding: 10,
+  },
+});
+export const CountriesListStyles = StyleSheet.create({
+  ScreenType: {
+    backgroundColor: "white",
+    padding: 10,
+    alignItems: 'center',
+    borderBottomColor: 'grey',
+    borderBottomWidth: 1,
+  },
+  List: {
+    flexDirection: "row",
+    padding: 10,
+    borderBottomWidth: 1,
+    alignItems: "center",
+    justifyContent: 'space-between'
+  },
+  ListName: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  ListNameAvi: {
+    width: 50,
+    height: 50,
+    backgroundColor: "grey",
+    borderRadius: 50,
+    textAlignVertical: "center",
+    textAlign: "center",
+  },
+  Fav: {
+    borderColor: 'red',
+  },
+})
