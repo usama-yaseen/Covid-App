@@ -60,7 +60,7 @@ export const HomeStyles = StyleSheet.create({
     justifyContent: "space-evenly",
     alignItems: "center",
     width: "100%",
-    paddingTop:25
+    paddingTop: 25,
   },
   CountryContainer: {
     width: "90%",
@@ -77,11 +77,11 @@ export const HomeStyles = StyleSheet.create({
     elevation: 5,
     paddingVertical: 10,
   },
-  Search: { borderRadius: 15, textAlign: 'center' },
+  Search: { borderRadius: 15, textAlign: "center" },
   CountriesList: {
     borderBottomWidth: 1,
     borderColor: "grey",
-    marginHorizontal: '5%',
+    marginHorizontal: "5%",
     padding: 10,
   },
   advice: {
@@ -102,7 +102,7 @@ export const HomeStyles = StyleSheet.create({
     width: "90%",
     height: "45%",
     justifyContent: "space-between",
-    marginBottom:10
+    marginBottom: 10,
   },
   StatsRow: {
     flexDirection: "row",
@@ -145,8 +145,8 @@ export const CountriesListStyles = StyleSheet.create({
   ScreenType: {
     backgroundColor: "white",
     padding: 10,
-    alignItems: 'center',
-    borderBottomColor: 'grey',
+    alignItems: "center",
+    borderBottomColor: "grey",
     borderBottomWidth: 1,
   },
   List: {
@@ -154,7 +154,7 @@ export const CountriesListStyles = StyleSheet.create({
     padding: 10,
     borderBottomWidth: 1,
     alignItems: "center",
-    justifyContent: 'space-between'
+    justifyContent: "space-between",
   },
   ListName: {
     flexDirection: "row",
@@ -169,6 +169,6 @@ export const CountriesListStyles = StyleSheet.create({
     textAlign: "center",
   },
   Fav: {
-    borderColor: 'red',
+    borderColor: "red",
   },
-})
+});
